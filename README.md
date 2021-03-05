@@ -12,6 +12,8 @@
 # A collapsible section containing code
 <details>
   <summary>Click to expand!</summary>
+  <summary>Click to expand!</summary>
+
   
   ```javascript
     function whatIsLove() {
