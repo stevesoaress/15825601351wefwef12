@@ -1,13 +1,39 @@
-# Node.js Hello World Sample
+# A collapsible section containing markdown
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
 
-This application demonstrates a simple, reusable Node.js web application based on the Express framework.
+# A collapsible section containing code
+<details>
+  <summary>Click to expand!</summary>
+  
+  ```javascript
+    function whatIsLove() {
+      console.log('Baby Don't hurt me. Don't hurt me');
+      return 'No more';
+    }
+  ```
+</details>
 
-## Run the app locally
+# How to structure
+```
+# A collapsible section with markdown
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+```
+**NB:** Make sure you have an **empty line** after the closing `</summary>` tag, otherwise the markdown/code blocks won't show correctly.
 
-1. [Install Node.js][]
-1. cd into this project's root directory
-1. Run `npm install` to install the app's dependencies
-1. Run `npm start` to start the app
-1. Access the running app in a browser at <http://localhost:6001>
-
-[Install Node.js]: https://nodejs.org/en/download/
+**NB**: Make sure you have an **empty line** after the closing `</details>` tag if you have multiple collapsible sections.
